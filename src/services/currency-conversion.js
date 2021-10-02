@@ -1,7 +1,7 @@
 const getDigitsFromValue = (value = '') => value.replace(/(-(?!\d))|[^0-9|-]/g, '') || ''
 
 const padDigits = digits => {
-  const desiredLength = 3
+  const desiredLength = 2
   const actualLength = digits.length
 
   if (actualLength >= desiredLength) {
